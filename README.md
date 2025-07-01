@@ -13,31 +13,6 @@ This project contains code and documentation to analyze call graphs and train Gr
 - **article.pdf**  
   Academic paper detailing the proposal, methodology, results, and discussion.
 
-## 🛠️ Installation and Setup
-
-1. **Create a virtual environment**  
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-2. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **(Optional) Automatic setup**  
-   ```bash
-   bash setup.sh
-   ```
-
-4. **Generate the call graph**  
-   ```bash
-   python graph.py --repo-url https://github.com/mirumee/saleor --output call_graph.pkl
-   ```
-   This command produces `call_graph.pkl` and a 3D visualization in `call_graph.html`.
-
-
 ## 🚀 Usage
 
 ### 1. Call Graph Analysis (`graph.py`)
